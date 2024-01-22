@@ -1,0 +1,31 @@
+{
+  "name": "tasty-bites",
+  "version": "1.0.0",
+  "description": "food delivery app",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samarthvermaa/tasty-bites"
+  },
+  "keywords": [
+    "tasty-bites"
+  ],
+  "author": "Samarth Verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samarthvermaa/tasty-bites/issues"
+  },
+  "homepage": "https://github.com/samarthvermaa/tasty-bites#readme",
+  "dependencies": {
+    "parcel": "^2.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
