@@ -91,3 +91,22 @@ body {
   align-items: center;
   line-height: 1px;
 }
+
+.top-rated-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background-color: burlywood;
+  height: 2rem;
+  border: 0.1rem solid rgb(176, 160, 140);
+}
+
+.btn:hover {
+  background-color: rgb(171, 139, 97);
+}
+
+.btn:active {
+  background-color: burlywood;
+}
