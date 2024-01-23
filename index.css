@@ -9,6 +9,11 @@ body {
   max-width: 100%;
   overflow-x: hidden;
 }
+
+.app {
+  width: 90vw;
+  margin: auto;
+}
 /* header */
 
 .header {
