@@ -2,6 +2,7 @@ import RestaurantCard from "./RestaurantCard";
 import Button from "./Button";
 import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
+import { Link } from "react-router-dom";
 
 const Body = () => {
   const [resList, setResList] = useState([]);
@@ -29,13 +30,10 @@ const Body = () => {
   const onSearchChange = (event) => {
     const value = event.target.value;
     setSearch(value);
-    setFilteredResList((prevList) => {
+    setFilteredResList(() => {
       if (value) {
         const list = resList.filter((item) => {
-          return item.info.name
-            .toLowerCase()
-            .split(" ")
-            .includes(value.toLowerCase());
+          return item.info.name.toLowerCase().includes(value.toLowerCase());
         });
         console.log("list-->", list);
         return list;
@@ -75,6 +73,7 @@ const Body = () => {
           type="text"
           className="input"
           value={search}
+          placeholder="Search Restaurants"
           onChange={onSearchChange}
         />
         <Button title="Reset" onClick={onResetClick} />
@@ -88,7 +87,9 @@ const Body = () => {
       <div className="res-container">
         {resList.length > 0 ? (
           filteredResList.map((item) => (
-            <RestaurantCard data={item} key={item.info.resId} />
+            <Link key={item.info.resId} to={`restaurants/${item.info.resId}`}>
+              <RestaurantCard data={item} />
+            </Link>
           ))
         ) : (
           <Shimmer />
