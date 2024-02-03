@@ -3,29 +3,17 @@ import Button from "./Button";
 import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
+import useRestaurants from "../utils/useRestaurants";
+import useOnlineStatus from "../utils/useOnlineStatus";
 
 const Body = () => {
-  const [resList, setResList] = useState([]);
-  const [filteredResList, setFilteredResList] = useState([]);
   const [search, setSearch] = useState("");
   const [filterButtonTitle, setFilterButtonTitle] = useState(
     "Filter Top Restaurants"
   );
+  const [resList, filteredResList, setFilteredResList] = useRestaurants();
 
-  useEffect(() => {
-    console.log("first");
-    fetchData();
-  }, []);
-
-  const fetchData = async () => {
-    try {
-      const data = await fetch("http://localhost:8080/restaurants");
-      const apiResList = await data.json();
-      initialRes = apiResList;
-      setResList(apiResList);
-      setFilteredResList(apiResList);
-    } catch (error) {}
-  };
+  const onlineStatus = useOnlineStatus();
 
   const onSearchChange = (event) => {
     const value = event.target.value;
@@ -66,7 +54,7 @@ const Body = () => {
     setFilterButtonTitle("Filter Top Restaurants");
   };
 
-  return (
+  return onlineStatus ? (
     <div className="body">
       <div className="search">
         <input
@@ -96,6 +84,8 @@ const Body = () => {
         )}
       </div>
     </div>
+  ) : (
+    <h1>Seems your are offline</h1>
   );
 };
 
