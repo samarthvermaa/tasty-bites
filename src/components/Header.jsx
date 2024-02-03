@@ -11,12 +11,12 @@ const Header = () => {
   const onlineStatus = useOnlineStatus();
 
   return (
-    <div className="header">
-      <div className="logo-container">
-        <img className="logo" src={logo} alt="logo" />
+    <div className="flex rounded-xl border-solid border-1 border-black p-4 shadow-md">
+      <div className="w-28">
+        <img src={logo} alt="logo" />
       </div>
-      <div className="nav-items-container">
-        <ul className="nav-items">
+      <div className="flex flex-1 flex-col justify-center">
+        <ul className="w-full flex justify-evenly">
           <li>Online Status:{onlineStatus ? "✅" : "🔴"}</li>
           <li>
             <Link to="/">Home</Link>
@@ -30,9 +30,8 @@ const Header = () => {
           <li>
             <Link to="/grocery">Grocery</Link>
           </li>
-          <li>
-            <Button onClick={onLoginButtonClick} title={signUpButtonTitle} />
-          </li>
+
+          <Button onClick={onLoginButtonClick} title={signUpButtonTitle} />
         </ul>
       </div>
     </div>

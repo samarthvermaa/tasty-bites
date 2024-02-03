@@ -3,8 +3,7 @@ import User from "./User";
 const About = () => {
   return (
     <div>
-      <h1>About us</h1>;
-      <div className="res-container">
+      <div className="flex flex-wrap my-4 justify-center">
         <User
           name="Samarth"
           image="https://media.licdn.com/dms/image/C4D22AQERP1A7vy1R7g/feedshare-shrink_800/0/1637899925902?e=2147483647&v=beta&t=p9p2mGrSaSCpWvEDttMa0-ePJvUX8_s6YSgQfb2g1HA"
@@ -38,7 +37,7 @@ const About = () => {
           rating="5 / 5"
         />
         <User
-          name="Himashi"
+          name="Himanshi"
           image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5XgZozAHnaQB3xY7KOIgecje6Bch983XrhA&usqp=CAU"
           location="Noida"
           age="56"
