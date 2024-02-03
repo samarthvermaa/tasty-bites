@@ -55,24 +55,24 @@ const Body = () => {
   };
 
   return onlineStatus ? (
-    <div className="body">
-      <div className="search">
+    <div className="rounded-xl border-solid border-1 border-black p-4">
+      <div className="flex justify-center p-2">
         <input
           type="text"
-          className="input"
+          className="border-solid border-2 rounded-md border-black mx-4"
           value={search}
           placeholder="Search Restaurants"
           onChange={onSearchChange}
         />
         <Button title="Reset" onClick={onResetClick} />
       </div>
-      <div className="top-rated-btn-container">
+      <div className="flex justify-center p-2">
         <Button
           title={filterButtonTitle}
           onClick={onFilterTopRestaurantButtonClick}
         />
       </div>
-      <div className="res-container">
+      <div className="flex flex-wrap justify-center">
         {resList.length > 0 ? (
           filteredResList.map((item) => (
             <Link key={item.info.resId} to={`restaurants/${item.info.resId}`}>

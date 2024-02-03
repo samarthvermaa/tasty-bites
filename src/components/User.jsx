@@ -1,20 +1,26 @@
 const User = ({ image, name, location, age, position, rating }) => {
   return (
-    <div className="res-card">
-      <div className="res-img-container">
-        {image && <img className="res-img" src={image} alt="pizza-hut" />}
+    <div className="flex flex-col rounded-xl border-solid border-1 shadow-lg border-black h-96 w-80 m-4 hover:scale-110 transition duration-500 cursor-pointer">
+      <div>
+        {image && (
+          <img
+            className="rounded-xl border-solid h-72 w-80 object-fit"
+            src={image}
+            alt="pizza-hut"
+          />
+        )}
       </div>
-      <div className="food-info">
+      <div className="flex justify-between px-2">
         <p>
           <strong>{name}</strong>
         </p>
         <p>{location}</p>
       </div>
-      <div className="food-cost">
+      <div className="flex justify-between px-2">
         <p>{age}</p>
         <p>{position}</p>
       </div>
-      <div className="time-to-deliver">
+      <div className="flex justify-between px-2">
         <p>{rating}</p>
       </div>
     </div>
