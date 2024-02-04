@@ -7,14 +7,17 @@ import Contact from "./components/Contact";
 import Error from "./components/Error";
 import Header from "./components/Header";
 import RestaurantMenu from "./components/RestaurantMenu";
+import { UserContextProvider } from "./utils/UserContext";
 
 const Grocery = lazy(() => import("./components/Grocery"));
 const AppLayout = () => {
   return (
-    <div className="app p-8">
-      <Header />
-      <Outlet />
-    </div>
+    <UserContextProvider>
+      <div className="app p-8">
+        <Header />
+        <Outlet />
+      </div>
+    </UserContextProvider>
   );
 };
 
