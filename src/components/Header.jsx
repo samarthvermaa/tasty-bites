@@ -2,11 +2,14 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { logo } from "../utils/images";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import { useUserContext } from "../utils/UserContext";
 import Button from "./Button";
 const Header = () => {
   const [signUpButtonTitle, setSignUpButtonTitle] = useState("Login");
+  const { name, updateName } = useUserContext();
   const onLoginButtonClick = () => {
     setSignUpButtonTitle((prev) => (prev === "Login" ? "Log Out" : "Login"));
+    updateName((prev) => (prev ? "" : "Samarth"));
   };
   const onlineStatus = useOnlineStatus();
 
@@ -32,6 +35,7 @@ const Header = () => {
           </li>
 
           <Button onClick={onLoginButtonClick} title={signUpButtonTitle} />
+          <li>User:{name}</li>
         </ul>
       </div>
     </div>

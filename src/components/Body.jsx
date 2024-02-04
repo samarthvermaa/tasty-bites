@@ -1,6 +1,6 @@
-import RestaurantCard from "./RestaurantCard";
+import RestaurantCard, { withPromotedRestaurantCard } from "./RestaurantCard";
 import Button from "./Button";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useRestaurants from "../utils/useRestaurants";
@@ -14,6 +14,8 @@ const Body = () => {
   const [resList, filteredResList, setFilteredResList] = useRestaurants();
 
   const onlineStatus = useOnlineStatus();
+
+  const PromotedRestaurantCard = withPromotedRestaurantCard(RestaurantCard);
 
   const onSearchChange = (event) => {
     const value = event.target.value;
@@ -40,7 +42,7 @@ const Body = () => {
     setFilteredResList((prevList) => {
       if (prevList.length == resList.length) {
         return resList.filter((item) => {
-          return item.info.rating.aggregate_rating >= 4;
+          return item.info?.avgRating >= 4;
         });
       } else {
         return resList;
@@ -75,8 +77,12 @@ const Body = () => {
       <div className="flex flex-wrap justify-center">
         {resList.length > 0 ? (
           filteredResList.map((item) => (
-            <Link key={item.info.resId} to={`restaurants/${item.info.resId}`}>
-              <RestaurantCard data={item} />
+            <Link key={item.info.id} to={`restaurants/${item.info.id}`}>
+              {item.isPromoted ? (
+                <PromotedRestaurantCard data={item} />
+              ) : (
+                <RestaurantCard data={item} />
+              )}
             </Link>
           ))
         ) : (
