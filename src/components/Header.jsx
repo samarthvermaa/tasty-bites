@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { logo } from "../utils/images";
 import useOnlineStatus from "../utils/useOnlineStatus";
@@ -7,6 +8,8 @@ import Button from "./Button";
 const Header = () => {
   const [signUpButtonTitle, setSignUpButtonTitle] = useState("Login");
   const { name, updateName } = useUserContext();
+  const cartItems = useSelector((state) => state.cart.items);
+  console.log("cartItems--->", cartItems);
   const onLoginButtonClick = () => {
     setSignUpButtonTitle((prev) => (prev === "Login" ? "Log Out" : "Login"));
     updateName((prev) => (prev ? "" : "Samarth"));
@@ -33,7 +36,9 @@ const Header = () => {
           <li>
             <Link to="/grocery">Grocery</Link>
           </li>
-
+          <li>
+            <Link to="/cart">Cart:{`${cartItems.length} items`}</Link>
+          </li>
           <Button onClick={onLoginButtonClick} title={signUpButtonTitle} />
           <li>User:{name}</li>
         </ul>

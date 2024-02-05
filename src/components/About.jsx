@@ -1,8 +1,19 @@
+import { useDispatch, useSelector } from "react-redux";
+import { removeUser } from "../utils/userSlice";
+import Button from "./Button";
 import User from "./User";
 
 const About = () => {
+  const user = useSelector((store) => store.user);
+  const dispatch = useDispatch();
+  const onClearUserClick = () => {
+    dispatch(removeUser());
+  };
   return (
     <div>
+      <p>Selected User:{user.name}</p>
+      <p>Selected Age:{user.age}</p>
+      <Button title="Clear User" onClick={onClearUserClick} />
       <div className="flex flex-wrap my-4 justify-center">
         <User
           name="Samarth"
