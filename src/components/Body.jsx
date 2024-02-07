@@ -12,6 +12,7 @@ const Body = () => {
     "Filter Top Restaurants"
   );
   const [resList, filteredResList, setFilteredResList] = useRestaurants();
+  console.log("resList-->", resList);
 
   const onlineStatus = useOnlineStatus();
 
@@ -42,7 +43,7 @@ const Body = () => {
     setFilteredResList((prevList) => {
       if (prevList.length == resList.length) {
         return resList.filter((item) => {
-          return item.info?.avgRating >= 4;
+          return item.info?.avgRating >= 4.3;
         });
       } else {
         return resList;
@@ -61,6 +62,7 @@ const Body = () => {
       <div className="flex justify-center p-2">
         <input
           type="text"
+          data-testid="searchInput"
           className="border-solid border-2 rounded-md border-black mx-4"
           value={search}
           placeholder="Search Restaurants"
@@ -75,7 +77,7 @@ const Body = () => {
         />
       </div>
       <div className="flex flex-wrap justify-center">
-        {resList.length > 0 ? (
+        {resList && resList.length > 0 ? (
           filteredResList.map((item) => (
             <Link key={item.info.id} to={`restaurants/${item.info.id}`}>
               {item.isPromoted ? (

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import { logo } from "../utils/images";
+//import { logo } from "../utils/images";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import { useUserContext } from "../utils/UserContext";
 import Button from "./Button";
@@ -18,9 +18,9 @@ const Header = () => {
 
   return (
     <div className="flex rounded-xl border-solid border-1 border-black p-4 shadow-md">
-      <div className="w-28">
+      {/* <div className="w-28">
         <img src={logo} alt="logo" />
-      </div>
+      </div> */}
       <div className="flex flex-1 flex-col justify-center">
         <ul className="w-full flex justify-evenly">
           <li>Online Status:{onlineStatus ? "✅" : "🔴"}</li>

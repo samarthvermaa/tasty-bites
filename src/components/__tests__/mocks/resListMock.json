@@ -1,0 +1,620 @@
+[
+  {
+    "info": {
+      "id": "24207",
+      "name": "Domino's Pizza",
+      "cloudinaryImageId": "zmrjaalxfjbnmygrj2kh",
+      "locality": "Connaught Place",
+      "areaName": "Connaught Place",
+      "costForTwo": "₹400 for two",
+      "cuisines": ["Pizzas", "Italian", "Pastas", "Desserts"],
+      "avgRating": 4.3,
+      "parentId": "2456",
+      "avgRatingString": "4.3",
+      "totalRatingsString": "10K+",
+      "sla": {
+        "deliveryTime": 30,
+        "serviceability": "SERVICEABLE",
+        "slaString": "30 mins",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-02-08 02:55:00",
+        "opened": true
+      },
+      "badges": {},
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {},
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "₹150 OFF",
+        "subHeader": "ABOVE ₹299",
+        "discountTag": "FLAT DEAL"
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {
+      "context": "seo-data-9d88799a-f5ce-4a6d-8af5-338575c3b268"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/dominos-pizza-connaught-place-delhi-24207",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "info": {
+      "id": "8614",
+      "name": "Burger King",
+      "cloudinaryImageId": "e33e1d3ba7d6b2bb0d45e1001b731fcf",
+      "locality": "Connaught Place",
+      "areaName": "Connaught Place",
+      "costForTwo": "₹350 for two",
+      "cuisines": ["Burgers", "American"],
+      "avgRating": 4.3,
+      "parentId": "166",
+      "avgRatingString": "4.3",
+      "totalRatingsString": "10K+",
+      "sla": {
+        "deliveryTime": 24,
+        "lastMileTravel": 0.4,
+        "serviceability": "SERVICEABLE",
+        "slaString": "24 mins",
+        "lastMileTravelString": "0.4 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-02-08 01:00:00",
+        "opened": true
+      },
+      "badges": {},
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {},
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "ITEMS",
+        "subHeader": "AT ₹129"
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {
+      "context": "seo-data-9d88799a-f5ce-4a6d-8af5-338575c3b268"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/burger-king-connaught-place-delhi-8614",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "info": {
+      "id": "230937",
+      "name": "The Burger Club",
+      "cloudinaryImageId": "ufzjtlulrnpsimac2n3d",
+      "locality": "Sector 5",
+      "areaName": "Connaught Place",
+      "costForTwo": "₹250 for two",
+      "cuisines": ["American", "Beverages", "Desserts"],
+      "avgRating": 4.2,
+      "parentId": "2285",
+      "avgRatingString": "4.2",
+      "totalRatingsString": "5K+",
+      "sla": {
+        "deliveryTime": 23,
+        "lastMileTravel": 1.3,
+        "serviceability": "SERVICEABLE",
+        "slaString": "23 mins",
+        "lastMileTravelString": "1.3 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-02-08 02:45:00",
+        "opened": true
+      },
+      "badges": {},
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {},
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "₹150 OFF",
+        "subHeader": "ABOVE ₹499",
+        "discountTag": "FLAT DEAL"
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {
+      "context": "seo-data-9d88799a-f5ce-4a6d-8af5-338575c3b268"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/the-burger-club-sector-5-connaught-place-delhi-230937",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "info": {
+      "id": "438612",
+      "name": "Baskin Robbins - Ice Cream Desserts",
+      "cloudinaryImageId": "85ccae4e3576f9330af102c46ca85395",
+      "locality": "Cannought Circus",
+      "areaName": "Chanakyapuri",
+      "costForTwo": "₹250 for two",
+      "cuisines": ["Desserts", "Ice Cream"],
+      "avgRating": 4.5,
+      "veg": true,
+      "parentId": "5588",
+      "avgRatingString": "4.5",
+      "totalRatingsString": "100+",
+      "sla": {
+        "deliveryTime": 20,
+        "lastMileTravel": 0.8,
+        "serviceability": "SERVICEABLE",
+        "slaString": "20 mins",
+        "lastMileTravelString": "0.8 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-02-08 02:00:00",
+        "opened": true
+      },
+      "badges": {},
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {},
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "30% OFF",
+        "subHeader": "UPTO ₹75"
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {
+      "context": "seo-data-9d88799a-f5ce-4a6d-8af5-338575c3b268"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/baskin-robbins-ice-cream-desserts-cannought-circus-chanakyapuri-delhi-438612",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "info": {
+      "id": "679996",
+      "name": "Khichdi Hub",
+      "cloudinaryImageId": "ebf0f3e38eb13bdb4f5144490fc63416",
+      "locality": "Lakshmi Narayan St",
+      "areaName": "Paharganj",
+      "costForTwo": "₹250 for two",
+      "cuisines": ["Indian"],
+      "avgRating": 4.1,
+      "parentId": "406307",
+      "avgRatingString": "4.1",
+      "totalRatingsString": "100+",
+      "sla": {
+        "deliveryTime": 24,
+        "lastMileTravel": 2.5,
+        "serviceability": "SERVICEABLE",
+        "slaString": "24 mins",
+        "lastMileTravelString": "2.5 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-02-14 00:00:00",
+        "opened": true
+      },
+      "badges": {},
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {},
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "50% OFF",
+        "subHeader": "UPTO ₹100",
+        "discountTag": "POCKET HERO",
+        "discountCalloutInfo": {
+          "message": "Free Delivery",
+          "logoCtx": {
+            "logo": "v1655895371/free_delivery_logo_hqipbo.png"
+          }
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {
+      "context": "seo-data-9d88799a-f5ce-4a6d-8af5-338575c3b268"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/khichdi-hub-lakshmi-narayan-st-paharganj-delhi-679996",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "info": {
+      "id": "697263",
+      "name": "Handi 47",
+      "cloudinaryImageId": "f60a0596a76581b140ea724a02b7805b",
+      "locality": "Lakshmi Narayan St",
+      "areaName": "Karol Bagh",
+      "costForTwo": "₹300 for two",
+      "cuisines": ["North Indian", "Snacks", "Beverages"],
+      "avgRating": 4.1,
+      "parentId": "417357",
+      "avgRatingString": "4.1",
+      "totalRatingsString": "100+",
+      "sla": {
+        "deliveryTime": 26,
+        "lastMileTravel": 2.5,
+        "serviceability": "SERVICEABLE",
+        "slaString": "26 mins",
+        "lastMileTravelString": "2.5 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-02-14 00:00:00",
+        "opened": true
+      },
+      "badges": {},
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {},
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "50% OFF",
+        "subHeader": "UPTO ₹100",
+        "discountTag": "POCKET HERO",
+        "discountCalloutInfo": {
+          "message": "Free Delivery",
+          "logoCtx": {
+            "logo": "v1655895371/free_delivery_logo_hqipbo.png"
+          }
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {
+      "context": "seo-data-9d88799a-f5ce-4a6d-8af5-338575c3b268"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/handi-47-lakshmi-narayan-st-karol-bagh-delhi-697263",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "info": {
+      "id": "42688",
+      "name": "Dhading KTM",
+      "cloudinaryImageId": "bocsidmnhnwtwqm3fnzm",
+      "locality": "Lalita Park",
+      "areaName": "Laxmi Nagar",
+      "costForTwo": "₹300 for two",
+      "cuisines": ["Chinese"],
+      "avgRating": 4.2,
+      "parentId": "71981",
+      "avgRatingString": "4.2",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 36,
+        "lastMileTravel": 7.1,
+        "serviceability": "SERVICEABLE",
+        "slaString": "36 mins",
+        "lastMileTravelString": "7.1 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-02-08 04:45:00",
+        "opened": true
+      },
+      "badges": {},
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {},
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "FREE ITEM"
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {
+      "context": "seo-data-9d88799a-f5ce-4a6d-8af5-338575c3b268"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/dhading-ktm-lalita-park-laxmi-nagar-delhi-42688",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "info": {
+      "id": "181735",
+      "name": "Vermaji Parathe Wale",
+      "cloudinaryImageId": "oq8v2x3fd73epqutawjz",
+      "locality": "Kalka Marg",
+      "areaName": "Yusuf Sarai",
+      "costForTwo": "₹300 for two",
+      "cuisines": ["North Indian", "Indian", "Chinese"],
+      "avgRating": 4.3,
+      "parentId": "222802",
+      "avgRatingString": "4.3",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 34,
+        "lastMileTravel": 9.8,
+        "serviceability": "SERVICEABLE",
+        "slaString": "34 mins",
+        "lastMileTravelString": "9.8 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-02-08 23:59:00",
+        "opened": true
+      },
+      "badges": {},
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {},
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "20% OFF",
+        "subHeader": "UPTO ₹50"
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {
+      "context": "seo-data-9d88799a-f5ce-4a6d-8af5-338575c3b268"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/vermaji-parathe-wale-kalka-marg-yusuf-sarai-delhi-181735",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "info": {
+      "id": "397603",
+      "name": "Doner Factory",
+      "cloudinaryImageId": "a8a608e470246eabc26901b8fbb83c01",
+      "locality": "Humayun Pur",
+      "areaName": "Safdarjung",
+      "costForTwo": "₹250 for two",
+      "cuisines": ["Lebanese", "Middle Eastern", "Arabian", "Beverages"],
+      "avgRating": 4.1,
+      "parentId": "319579",
+      "avgRatingString": "4.1",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 32,
+        "lastMileTravel": 9.8,
+        "serviceability": "SERVICEABLE",
+        "slaString": "32 mins",
+        "lastMileTravelString": "9.8 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-02-08 05:00:00",
+        "opened": true
+      },
+      "badges": {},
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {},
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "₹125 OFF",
+        "subHeader": "ABOVE ₹249",
+        "discountTag": "FLAT DEAL"
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {
+      "context": "seo-data-9d88799a-f5ce-4a6d-8af5-338575c3b268"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/doner-factory-humayun-pur-safdarjung-delhi-397603",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  }
+]

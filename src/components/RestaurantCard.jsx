@@ -1,8 +1,12 @@
 import { IMG_CDN_URL } from "../utils/constants";
 
 const RestaurantCard = ({ data }) => {
+  console.log(data);
   return (
-    <div className="flex flex-col rounded-xl border-solid border-1 shadow-lg border-black h-96 w-96 m-4 hover:scale-110 transition duration-500 cursor-pointer bg-slate-200">
+    <div
+      data-testid="resCard"
+      className="flex flex-col rounded-xl border-solid border-1 shadow-lg border-black h-96 w-96 m-4 hover:scale-110 transition duration-500 cursor-pointer bg-slate-200"
+    >
       <div>
         {data?.info?.cloudinaryImageId && (
           <img
